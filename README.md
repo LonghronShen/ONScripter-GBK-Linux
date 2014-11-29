@@ -1,5 +1,38 @@
-ONScripter-GBK-Linux
+Introduction
 ====================
+ONScripter-GBK for Linux is a project for porting the ONScripter to most popular Linux distros.
+Currently this project is developped on the Debian distros, especially for the Loongson-2F platform.
 
-ONScripter-GBK for Linux,这是一个旨在改进ONScripter-GBK for Linux各发行版的项目，欢迎各位共同维护，由于我使用debian，因此主分支能保证在debian下编译成功，其他发行版请创建其他分支。我的联系方式：345865759@163.com
+This repository is forked from *https://github.com/shouhuanxiaoji/ONScripter-GBK-Linux*
 
+Quick start
+====================
+The following steps are based on the Debian 8 running on a Loongson-2F system.
+Firstly we should install some dependencies.
+
+* libsdl 1.2-dev
+* libsdl-image1.2
+* libsdl-image1.2-dev
+* libsdl-mixer1.2
+* libsdl-mixer1.2-dev
+* libsdl-net1.2
+* libsdl-net1.2-dev
+* libsdl-ttf2.0-0
+* libsdl-ttf2.0-dev
+* libsmpeg-dev
+* libsmpeg0
+* libavifile-0.7-dev
+
+Then execute: 
+
+    make -f Makefile.Linux
+
+Then you can compile the whole project and generate a <code>onscript</code> executable file.
+
+Usage
+====================
+Copy the compiled executable file to the game directory, then a TTF font file and rename it to <code>default.ttf</code>
+
+Then execute: <code>./onscripter --window</code>
+
+Enjoy!

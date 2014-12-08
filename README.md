@@ -24,6 +24,7 @@ Firstly we should install some dependencies.
 * libavifile-0.7-dev
 * lua5.1-dev
 * libfontconfig1-dev
+* libbz2-dev
 
 Then execute: 
 

@@ -22,6 +22,8 @@ Firstly we should install some dependencies.
 * libsmpeg-dev
 * libsmpeg0
 * libavifile-0.7-dev
+* lua5.1-dev
+* libfontconfig1-dev
 
 Then execute: 
 
